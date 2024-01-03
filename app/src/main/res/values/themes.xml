@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nothing here matters EXCEPT THE STATUS BAR COLOR. The theme is obtained from [Theme.kt] -->
+    <style name="Theme.RecipesCompose" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--  <item name="colorOnPrimary">@color/white</item> -->
+
+        <item name="android:statusBarColor">@color/blue_800</item>
+    </style>
+</resources>

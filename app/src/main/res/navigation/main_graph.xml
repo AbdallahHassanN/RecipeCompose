@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/recipeListFragment"
+    tools:ignore="MissingDefaultResource">
+
+    <fragment
+        android:id="@+id/recipeListFragment"
+        android:name="com.example.recipescompose.presentation.ui.recipeList.RecipeListFragment"
+        android:label="recipeListFragment" >
+        <action
+            android:id="@+id/viewRecipe"
+            app:destination="@id/recipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="com.example.recipescompose.presentation.ui.recipe.RecipeFragment"
+        android:label="RecipeFragment" />
+</navigation>
